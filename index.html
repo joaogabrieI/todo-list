@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="to-do.js" defer></script>
+    <title>Lista de tarefas</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Lista de tarefas</h1>
+        <p>Uma simples lista de to do</p>
+      </section>
+
+      <section class="tarefas">
+        <div>
+          <input type="checkbox" name="tarefa" />
+          <label for="tarefa">tarefa 1</label>
+          <button>editar</button>
+        </div>
+
+        <div>
+          <input type="checkbox" name="tarefa" />
+          <label for="tarefa"><s>tarefa 1</s></label>
+          <button>editar</button>
+        </div>
+        
+        <div class="btn-add-tarefa">
+            <button>Adicionar tarefa</button>
+        </div>
+      </section>
+
+      <section class="form-add-tarefa hidden">
+        <form action="">
+            <p>digite sua tarefa</p>
+            <input type="text" name="textTarefa" id="">
+            <input type="submit" value="enviar">
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
